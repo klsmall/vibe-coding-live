@@ -1,12 +1,10 @@
 # Create Agentforce Vibes IDE Playground
 
-## Approx. 2-3 Minutes
-
 We are using a special Agentforce Vibes IDE Playground because Agentforce Vibes is not available in every Trailhead Playground. This custom playground provides a compatible, preconfigured Salesforce environment with access to the browser-based IDE and the development tools needed for the workshop. Using the designated playground also helps ensure that everyone starts with a consistent environment.
 
 1. Create a new **Agentforce Vibes IDE Playground** using the following link: [https://trailhead.salesforce.com/content/learn/projects/quick-start-troubleshoot-code-with-dev-agent/create-your-local-development-environment](https://trailhead.salesforce.com/content/learn/projects/quick-start-troubleshoot-code-with-dev-agent/create-your-local-development-environment)
 
-   **NOTE:** It may take a few minutes for the playground to be created.
+   **NOTE:** Wait until the playground has finished being created before continuing.
 
 > **Image placeholder:** Agentforce Vibes IDE Playground project page.
 
@@ -17,8 +15,6 @@ We are using a special Agentforce Vibes IDE Playground because Agentforce Vibes 
 > **Image placeholder:** Completed playground showing the **Launch** button.
 
 # Launch Agentforce Vibes
-
-## Approx. 2-3 Minutes
 
 Agentforce Vibes is an AI-powered Salesforce development assistant available in Visual Studio Code and the web-based Agentforce Vibes IDE. It can help generate code from natural-language prompts, suggest code as you work, create unit tests, explain existing logic, and assist with documentation and troubleshooting.
 
@@ -39,8 +35,6 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 > **Image placeholder:** Agentforce Vibes side panel with the terms checkbox and **Enable Agentforce** button.
 
 # Vibe Code the Sales Note Builder LWC and a Custom Field
-
-## Approx. 10 Minutes
 
 1. Perform the following steps:
    1. Use the **File icon** to upload the markdown file for this workshop: [sales_call_note_builder_prototype_requirements.md](./markdown_files/sales_call_note_builder_prototype_requirements.md)
@@ -73,8 +67,6 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 
 # Permission Set & Deployment
 
-## Approx. 10 Minutes
-
 7. Next, send [**Prompt #2**](./prompts/prompt_2.txt) to create a permission set for the new field, deploy the metadata, and assign that new permission set to yourself (this does not have to run in plan mode)
 
 > **Image placeholder:** Agentforce Vibes chat with Prompt 2 entered.
@@ -100,8 +92,6 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 > **Image placeholder:** Agentforce Vibes summary of completed work.
 
 # Deployment Verification and LWC Testing
-
-## TBD on Duration (Depends on the amount of LWC Errors)
 
 13. In a different browser tab, navigate to Setup and verify that you have been assigned to the new permission set. You can also verify that access to the new “Sales Call Responses JSON” field has been granted through the permission set.
 
