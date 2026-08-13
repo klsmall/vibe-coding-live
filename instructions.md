@@ -6,13 +6,13 @@ We are using a special Agentforce Vibes IDE Playground because Agentforce Vibes 
 
    **NOTE:** Wait until the playground has finished being created before continuing.
 
-> **Image placeholder:** Agentforce Vibes IDE Playground project page.
+<img width="1305" height="250" alt="Screenshot 2026-08-13 at 4 20 52 PM" src="https://github.com/user-attachments/assets/d78d3768-cf3a-4930-8c62-51244c6c71fe" />
 
-> **Image placeholder:** Trailhead screen for creating the Agentforce Vibes IDE Playground.
+<img width="1306" height="526" alt="Screenshot 2026-08-13 at 4 21 54 PM" src="https://github.com/user-attachments/assets/c2fa6289-7d91-43c9-9afa-2a47d8481061" />
 
 2. Once your Agentforce Vibes IDE Playground is created, launch the Playground using the **Launch** button
 
-> **Image placeholder:** Completed playground showing the **Launch** button.
+<img width="1306" height="261" alt="Screenshot 2026-08-13 at 4 22 15 PM" src="https://github.com/user-attachments/assets/5006a1b5-0cb6-4543-8b68-76f95f39ceb0" />
 
 # Launch Agentforce Vibes
 
@@ -20,19 +20,19 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 
 1. Click on the Gear icon to open the Setup Menu, then select the **Agentforce Vibes** option
 
-> **Image placeholder:** Salesforce Setup menu with **Agentforce Vibes** selected.
+<img width="1306" height="301" alt="Screenshot 2026-08-13 at 4 23 14 PM" src="https://github.com/user-attachments/assets/808c360a-fb82-4163-ac8f-0d952f90d7e0" />
 
 2. If prompted, **accept** the Agentforce Vibes Terms & Conditions
 
-> **Image placeholder:** Agentforce Vibes Terms & Conditions prompt.
+<img width="1102" height="638" alt="Screenshot 2026-08-13 at 4 23 43 PM" src="https://github.com/user-attachments/assets/c31f05fb-fa6e-49b0-81ef-545cc777c201" />
 
 3. When prompted to trust the author of files in the folder, click on the **“Yes, I trust the authors”** button. This step is *REQUIRED* before you can start vibe coding. 
 
-> **Image placeholder:** Workspace trust prompt showing the **Yes, I trust the authors** button.
+<img width="1114" height="675" alt="Screenshot 2026-08-13 at 4 24 08 PM" src="https://github.com/user-attachments/assets/2f899665-93a3-43d6-ae28-7381aa68d018" />
 
 4. Now, you should be able to access the Agentforce Vibes side panel\! Check the **“I agree to the terms”** checkbox, then click on the **“Enable Agentforce”** button.
 
-> **Image placeholder:** Agentforce Vibes side panel with the terms checkbox and **Enable Agentforce** button.
+<img width="1224" height="651" alt="Screenshot 2026-08-13 at 4 24 40 PM" src="https://github.com/user-attachments/assets/7b284a38-e359-4a26-9627-09ae2d6f361b" />
 
 # Vibe Code the Sales Note Builder LWC and a Custom Field
 
@@ -41,29 +41,29 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
    2. Paste in [**Prompt #1**](./prompts/prompt_1.txt)
    3. Enable **Plan Mode**
 
-> **Image placeholder:** Agentforce Vibes chat showing the uploaded requirements file, Prompt 1, and Plan Mode enabled.
+<img width="478" height="833" alt="Screenshot 2026-08-13 at 4 25 23 PM" src="https://github.com/user-attachments/assets/83acce2e-7708-42f7-99b5-993afa8628f4" />
 
 2. Click on the **blue arrow** to start the chat with Agentforce Vibes
 
-> **Image placeholder:** Agentforce Vibes chat showing the blue send arrow.
+<img width="971" height="344" alt="Screenshot 2026-08-13 at 4 26 19 PM" src="https://github.com/user-attachments/assets/c20d0693-3344-4122-a9fc-cbd86b5a3e94" />
 
 3. Agentforce Vibes will generate an Implementation Plan that you should review before moving forward. You may want to resize the panel to get a better view of the plan.
 
-> **Image placeholder:** Generated implementation plan in the Agentforce Vibes panel.
+<img width="752" height="753" alt="Screenshot 2026-08-13 at 4 26 46 PM" src="https://github.com/user-attachments/assets/dde2f573-8e38-43bc-9f78-a37102b51bfa" />
 
 4. Once you have reviewed the entire plan, scroll down to the bottom of the plan, and click on the **Approve Plan** button
 
-> **Image placeholder:** Bottom of the implementation plan showing the **Approve Plan** button.
+<img width="588" height="812" alt="Screenshot 2026-08-13 at 4 27 13 PM" src="https://github.com/user-attachments/assets/3b631715-8f75-474c-a282-e7b817bda635" />
 
 5. Agentforce Vibes will begin implementing the plan, but will ask for approval before running any commands / search. Carefully review what Agentforce Vibes wants to do before approving.
 
    **IMPORTANT:** In real projects, do not blindly approve commands or searches, and do not enable features that automatically approve them for you. Automatic approval removes an important safety checkpoint and could result in unintended changes, deleted files or metadata, exposure of sensitive information, or destructive commands being executed in your environment.
 
-> **Image placeholder:** Agentforce Vibes command approval prompt.
+<img width="1070" height="612" alt="Screenshot 2026-08-13 at 4 28 02 PM" src="https://github.com/user-attachments/assets/96d86cde-3616-4b3e-9fe6-a54d3027cb39" />
 
 6. Agentforce Vibes will finish implementing the plan, and new files for both the new custom field and the LWC should be created. You will be able to review and approve each file related to the project.
 
-> **Image placeholder:** Generated custom-field and Lightning Web Component files ready for review.
+<img width="1306" height="700" alt="Screenshot 2026-08-13 at 4 29 02 PM" src="https://github.com/user-attachments/assets/097a110b-693b-4027-8e01-1dccea2c6450" />
 
 # Permission Set & Deployment
 
