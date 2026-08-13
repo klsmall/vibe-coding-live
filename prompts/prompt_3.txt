@@ -1,0 +1,43 @@
+Update the existing Sales Call Note Builder Prototype so that Salesforce administrators can configure the questions in Lightning App Builder instead of having the questions hard-coded in the component.
+
+Keep the four existing sections in this order:
+
+1. Business Context
+2. Current Challenges
+3. Desired Outcomes
+4. Next Steps
+
+Expose one text property in Lightning App Builder for each section:
+
+- businessContextQuestions
+- currentChallengeQuestions
+- desiredOutcomeQuestions
+- nextStepQuestions
+
+Administrators will enter multiple questions in each property using a pipe character (|) as the separator.
+
+When processing each property:
+
+- Treat a blank property as an empty question list.
+- Split the text on the pipe character.
+- Remove extra whitespace around each question.
+- Ignore blank questions.
+- Preserve the configured order.
+- Create a predictable key from the section name and question position.
+
+Remove the hard-coded questions from the component. Do not provide a full default question list in Lightning App Builder, but include a short description and a single-question placeholder for each property.
+
+Continue displaying all four section headings. If a section has no configured questions, show a friendly message explaining that an administrator can add questions in Lightning App Builder.
+
+Preserve the existing Opportunity and Account summary, Prep Notes, JSON storage, view and edit modes, loading states, save behavior, and error handling.
+
+When editing an existing note:
+
+- Match saved answers to configured questions by question key first.
+- Use the exact question text as a fallback.
+- Leave newly configured questions blank.
+- Remove questions that are no longer configured the next time the note is saved.
+
+Continue storing the exact displayed questions and answers in Opportunity.Sales_Call_Responses_JSON__c. Keep the solution Apex-free and use Lightning Data Service.
+
+Update only the files required for this change, keep the component clearly labeled as a prototype, and explain what was changed.

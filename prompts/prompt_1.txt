@@ -1,0 +1,17 @@
+Use the attached `sales_call_note_builder_prototype_requirements.md` file to plan a Salesforce Lightning Web Component.
+
+First, inspect the Salesforce DX project and determine whether the required Opportunity custom field already exists. If it is missing, make creating that field the first implementation step.
+
+Then create a decision-complete plan for building the Sales Call Note Builder Prototype described in the file.
+
+Follow the requirements closely:
+
+- Keep the sales questions hard-coded exactly as listed.
+- Clearly identify the component as a prototype.
+- Use Lightning Data Service instead of Apex.
+- Do not make the questions configurable.
+- Do not add features that are not requested.
+- Identify the files that will be created or changed.
+- Include appropriate validation steps.
+
+Do not edit any files yet. Present the implementation plan for my review and approval.

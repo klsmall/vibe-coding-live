@@ -1,0 +1,42 @@
+Next, please follow these instructions to create a permission set and deploy the metadata.
+
+1. Create the permission set
+
+Create permission-set metadata with:
+
+- API name: Sales_Call_Note_Builder_Prototype_Access
+- Label: Sales Call Note Builder Prototype Access
+- Description: Grants access to the Opportunity field used by the Sales Call Note Builder Prototype.
+- Field: Opportunity.Sales_Call_Responses_JSON__c
+- Readable: true
+- Editable: true
+
+Do not add unrelated field, object, Apex, administrative, or system permissions.
+
+Confirm that the custom field is not required before adding its field-level security.
+
+2. Validate the deployment
+
+Prepare a targeted deployment containing only:
+
+- The Sales Call Note Builder Prototype LWC bundle
+- Opportunity.Sales_Call_Responses_JSON__c
+- Sales_Call_Note_Builder_Prototype_Access
+
+Do not deploy unrelated metadata from the project.
+
+Run a dry-run deployment against the selected target org first. Do not continue if validation fails. Diagnose the failure and propose the smallest correction.
+
+3. Deploy
+
+After the dry run succeeds, deploy the same targeted metadata to the selected org.
+
+Wait for the deployment to finish and confirm that all three metadata items deployed successfully.
+
+4. Assign the permission set
+
+Only after the deployment succeeds, assign Sales_Call_Note_Builder_Prototype_Access to the authenticated username associated with the target org.
+
+Do not assign it to other users.
+
+Follow the repository's approval rules. Ask before running commands, creating the permission-set file, validating, deploying, or assigning the permission set. Do not access or change production unless I explicitly confirm that production is the intended target.
