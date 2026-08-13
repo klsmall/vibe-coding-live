@@ -42,9 +42,9 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 
 ## Approx. 10 Minutes
 
-1. Perform the following steps:  
-   1. Use the **File icon** to upload the markdown file for this workshop: [sales\_call\_note\_builder\_prototype\_requirements.md](https://drive.google.com/file/d/1LjkU1HLVSoq-D6qRMd37C9U4tQ_dsjqQ/view?usp=drive_link)  
-   2. Paste in **Prompt \#1** from the [Vibe Coding Live: Prompts](https://docs.google.com/document/u/0/d/1cND2E7QYmsovwTOZ9uFCEs3spxMh0PpqAAJpuj8jsPo/edit) file  
+1. Perform the following steps:
+   1. Use the **File icon** to upload the markdown file for this workshop: [sales_call_note_builder_prototype_requirements.md](./markdown_files/sales_call_note_builder_prototype_requirements.md)
+   2. Paste in [**Prompt #1**](./prompts/prompt_1.txt)
    3. Enable **Plan Mode**
 
 > **Image placeholder:** Agentforce Vibes chat showing the uploaded requirements file, Prompt 1, and Plan Mode enabled.
@@ -75,7 +75,7 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 
 ## Approx. 10 Minutes
 
-7. Next, send Prompt \#2 from the [Vibe Coding Live: Prompts](https://docs.google.com/document/u/0/d/1cND2E7QYmsovwTOZ9uFCEs3spxMh0PpqAAJpuj8jsPo/edit) file to create a permission set for the new field, to deploy the metadata, and to assign that new permission set to yourself (this does not have to run in plan mode)
+7. Next, send [**Prompt #2**](./prompts/prompt_2.txt) to create a permission set for the new field, deploy the metadata, and assign that new permission set to yourself (this does not have to run in plan mode)
 
 > **Image placeholder:** Agentforce Vibes chat with Prompt 2 entered.
 
