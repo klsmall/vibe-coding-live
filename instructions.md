@@ -69,64 +69,64 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 
 7. Next, send [**Prompt #2**](./prompts/prompt_2.txt) to create a permission set for the new field, deploy the metadata, and assign that new permission set to yourself (this does not have to run in plan mode)
 
-> **Image placeholder:** Agentforce Vibes chat with Prompt 2 entered.
+<img width="460" height="820" alt="Screenshot 2026-08-13 at 7 02 51 PM" src="https://github.com/user-attachments/assets/31d6b3f4-16b9-47db-840b-440f9bfda095" />
 
 8. Agentforce Vibes may ask for approval before running anything else. Review the requested changes, type out your approval in the chat window, then send the message.
 
-> **Image placeholder:** Agentforce Vibes requesting typed approval to continue.
+<img width="602" height="722" alt="Screenshot 2026-08-13 at 7 04 19 PM" src="https://github.com/user-attachments/assets/e558e063-cd27-451a-ae68-9714de6e4362" />
 
 9. A dry-run of the deployment process will begin. During the dry-run, Agentforce Vibes will check and try to resolve any deployment errors that occur. Each time a deployment issue is resolved, you may have to approve to rerun the deployment.
 
-> **Image placeholder:** Targeted deployment dry-run progress and results.
+<img width="727" height="669" alt="Screenshot 2026-08-13 at 7 04 50 PM" src="https://github.com/user-attachments/assets/c32b3328-6712-48ad-93a5-5d661799f21c" />
 
 10. Once all deployment errors are resolved, you can run the full deployment.
 
-> **Image placeholder:** Successful dry run followed by the full deployment step.
+<img width="1201" height="330" alt="Screenshot 2026-08-13 at 7 05 45 PM" src="https://github.com/user-attachments/assets/c241dc11-3103-45a3-9d7d-2f1e08566c6d" />
 
 11. Once the deployment succeeds, you be able to run the permission set assignment right within the chat
 
-> **Image placeholder:** Permission-set assignment command and result in the chat.
+<img width="966" height="273" alt="Screenshot 2026-08-13 at 7 06 18 PM" src="https://github.com/user-attachments/assets/0b2acdd7-e2fd-47bb-8962-e0c68478c6a4" />
 
 12. Once Agentforce Vibes is done, you will be able to review a summary of the work completed
 
-> **Image placeholder:** Agentforce Vibes summary of completed work.
+<img width="569" height="686" alt="Screenshot 2026-08-13 at 7 06 54 PM" src="https://github.com/user-attachments/assets/d132d9fe-d8ca-4de0-a3d4-b275b5f3bcc5" />
 
 # Deployment Verification and LWC Testing
 
 13. In a different browser tab, navigate to Setup and verify that you have been assigned to the new permission set. You can also verify that access to the new “Sales Call Responses JSON” field has been granted through the permission set.
 
-> **Image placeholder:** Salesforce permission-set assignment verification page.
+<img width="1169" height="334" alt="Screenshot 2026-08-13 at 7 07 18 PM" src="https://github.com/user-attachments/assets/89e57c62-8fc6-4b80-9ac7-bae7b194afad" />
 
-> **Image placeholder:** Permission set showing access to the Sales Call Responses JSON field.
+<img width="1202" height="204" alt="Screenshot 2026-08-13 at 7 07 42 PM" src="https://github.com/user-attachments/assets/77358cae-ccec-4b09-ab4b-dd2ee4e1710a" />
 
 14. Navigate to a random Opportunity record in your org, then select the option to **Edit Page**
 
-> **Image placeholder:** Opportunity record menu showing the **Edit Page** option.
+<img width="1121" height="301" alt="Screenshot 2026-08-13 at 7 10 00 PM" src="https://github.com/user-attachments/assets/22408505-cc0d-499f-b4ca-68e85889cc59" />
 
 15. Search for the “Sales Call Note Builder Prototype” LWC. Try adding the new component to the page.
 
-> **Image placeholder:** Lightning App Builder search results showing the Sales Call Note Builder Prototype component.
+<img width="1166" height="588" alt="Screenshot 2026-08-13 at 7 10 25 PM" src="https://github.com/user-attachments/assets/5eef87e2-4a86-4aa3-ad59-f5a12b8155bc" />
 
 **NOTE:** If there are any errors during this stage, take a screenshot of the error, navigate back to Agentforce Vibes, and ask it to resolve the error for you. Once the error is resolved and the fix is deployed, refresh the page with the error, then try adding the component to the Opportunity Lightning Page again.
 
-> **Image placeholder:** Example component error to capture and troubleshoot in Agentforce Vibes.
+<img width="875" height="488" alt="Screenshot 2026-08-13 at 7 10 51 PM" src="https://github.com/user-attachments/assets/7f2758a5-53ee-4f2b-8830-75bf7c375e4d" />
 
 16. Test out your brand new LWC on the Opportunity record page\!
 
-> **Image placeholder:** Completed Sales Call Note Builder Prototype on an Opportunity record page.
+<img width="1121" height="602" alt="Screenshot 2026-08-13 at 7 11 46 PM" src="https://github.com/user-attachments/assets/096d27cb-0305-45b9-9809-32447b4b983b" />
 
 # Troubleshooting
 
 You may be prompted to download the recommended Salesforce extensions. If so, please click on the **Install** button to begin the installation. Once the extensions are installed, you should be able to access Agentforce Vibes.
 
-> **Image placeholder:** Recommended Salesforce extensions prompt showing the **Install** button.
+<img width="698" height="560" alt="Screenshot 2026-08-13 at 7 12 13 PM" src="https://github.com/user-attachments/assets/01b451ef-27db-453b-b097-0a9c257a7188" />
 
 If you run into any network errors, try refreshing the page, then try running the prompt again
 
-> **Image placeholder:** Example network error in Agentforce Vibes.
+<img width="541" height="787" alt="Screenshot 2026-08-13 at 7 12 40 PM" src="https://github.com/user-attachments/assets/f8ca3244-d584-47df-96b8-adb04acac399" />
 
 If you run into component errors, try switching the model
 
-> **Image placeholder:** Model selector used when troubleshooting component errors.
+<img width="1051" height="232" alt="Screenshot 2026-08-13 at 7 13 03 PM" src="https://github.com/user-attachments/assets/32d6887b-d9c7-42a6-beed-0178f33cd0cb" />
 
 Also, if there are too many errors, try asking Agentforce Vibes to completely rebuild the component using a “simpler modern implementation”  
