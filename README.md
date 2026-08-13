@@ -30,4 +30,6 @@ Keep the repository and downloaded files easily accessible throughout the sessio
 
 Once Google Chrome is open and you have access to the project files, you’re ready to follow along.
 
+Open and review the [Workshop Instructions](./instructions.md) before you begin. Keep them open during the workshop so you can follow each step and access the related project files and prompts.
+
 Let’s build, learn, and vibe together\!
