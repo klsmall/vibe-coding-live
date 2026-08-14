@@ -79,11 +79,20 @@ Agentforce Vibes is an AI-powered Salesforce development assistant available in 
 
 5. Agentforce Vibes will begin implementing the plan, but will ask for approval before running any commands / search. Carefully review what Agentforce Vibes wants to do before approving.
 
-   **IMPORTANT:** In real projects, do not blindly approve commands or searches, and do not enable features that automatically approve them for you. Automatic approval removes an important safety checkpoint and could result in unintended changes, deleted files or metadata, exposure of sensitive information, or destructive commands being executed in your environment.
-
 <p align="center">
   <img width="749" alt="Screenshot 2026-08-13 at 4 28 02 PM" src="https://github.com/user-attachments/assets/96d86cde-3616-4b3e-9fe6-a54d3027cb39" />
 </p>
+
+   > **Beginner safety check:** Do not approve an action just because the agent recommends it.
+   >
+   > Before approving:
+   >
+   > - Read the proposed command or search.
+   > - If anything is unclear, ask the agent to explain what it will do and whether there are risks.
+   > - Confirm which files or Salesforce metadata will be affected.
+   > - Keep automatic approval features turned off.
+   >
+   > Automatic approval removes an important safety checkpoint and could lead to unintended changes, deleted files or metadata, exposure of sensitive information, or destructive commands being run.
 
 6. Agentforce Vibes will finish implementing the plan, and new files for both the new custom field and the LWC should be created. You will be able to review and approve each file related to the project.
 
