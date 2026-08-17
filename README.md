@@ -4,6 +4,10 @@ You’re about to explore how an AI coding agent can help you plan, build, revie
 
 This workshop is designed to be beginner-friendly, so no prior vibe coding experience is required. We’ll guide you through the process, provide the files and prompts you need, and make room for questions along the way.
 
+## Video Walkthrough
+
+A basic [video walkthrough of the full build](https://drive.google.com/file/d/1aZHgjYEyO1E_e17ROhI_VcehbCbZxFkF/view?usp=sharing) is available if you would like a visual reference. The video has **no audio**, so you can watch the complete build, fast-forward, or skip directly to the parts you need.
+
 ## Before We Get Started
 
 Take a few minutes to complete the following setup steps.
